@@ -1,7 +1,7 @@
 # RAG Hallucination Detecting By LRP
 
 ## Introduction
-Using LRP-based methods to detect hallucination in RAG, this is code repository for "LRP4RAG: Detecting Hallucinations in Retrieval-Augmented Generation via Layer-wise Relevance Propagation".
+Using LRP-based methods to detect hallucination in RAG, this is code repository for [**LRP4RAG: Detecting Hallucinations in Retrieval-Augmented Generation via Layer-wise Relevance Propagation**](https://www.arxiv.org/abs/2408.15533).
 
 #### What's LRP?
 Layer-wise Relevance Propagation ([LRP](https://arxiv.org/abs/1604.00825)) is a technique that brings such explainability and scales to potentially highly complex deep neural networks.
@@ -37,3 +37,16 @@ download baseline_output.zip lrp_result_llama_7b.zip lrp_result_llama_13b.zip fr
 
 + Finetune:
   + run `python baseline/llm_finetune.py`
+
+## Cite
+```
+@misc{hu2024lrp4ragdetectinghallucinationsretrievalaugmented,
+      title={LRP4RAG: Detecting Hallucinations in Retrieval-Augmented Generation via Layer-wise Relevance Propagation}, 
+      author={Haichuan Hu and Yuhan Sun and Quanjun Zhang},
+      year={2024},
+      eprint={2408.15533},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2408.15533}, 
+}
+```
